@@ -38,10 +38,10 @@ Tabela que guarda o relacionamento entre os usuários. Quem conhece quem e qual 
 Tabela que guarda os tipos de relacionamentos que pode existir entre os usuários (por exemplo: amigos; instrutor; cliente).
 
 # O que há nesse repositório?
-Nesse repositório temos os scripts de criação do banco de dados, as tabelas, as inserções iniciais e algumas funções importantes para a aplicação, como a *stored procedure* salvarRefeicao(), que salva uma refeição quando o usuário confirma que acabou de adicionar os alimentos.
+Nesse repositório temos os scripts de criação do banco de dados, as tabelas, as inserções iniciais e algumas funções importantes para a aplicação.
 
 ## Passo a passo
 1. Execute o script **initial_script.sql** para criar o Banco de Dados e criar as tabelas
 2. Execute **initial_insertions.sql** para inserir criar um usuário comum e um instrutor.
-3.Execute o script **import_taco.sql** para importar a tabela TACO para a tabela **food**.
+3. Execute o script **import_taco.sql** para importar a tabela TACO para a tabela **food**.
 4. As tabelas já estão prontas para serem utilizadas.
